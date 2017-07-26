@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\Repositories\TaskRepository;
 use App\Task;
 use Illuminate\Validation\ValidationException;
-use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class TaskController extends Controller
 {
