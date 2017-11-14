@@ -31,3 +31,9 @@ Laraveles megkötések (ha nem dolgoztál még Laravelben ezek nem kötelezőek,
 Külcsín nem számít, lehetőleg használj Bootstrap 3-at, ajax hívásokhoz jQuery 3-at.
 
 A feladat legyen feltöltve Github-ra vagy Bitbucket-re egy nyilvános repositoryba.
+
+
+TODOS, illetve megjegyzések:
+- a task-ok title mezőjét nem unique-ként vettem fel, ez koncepció volt
+- a formokat a szűk határidőre tekintettel sima html tag-ekkel csináltam, erre vannak szebb megoldások laravel-ben (Form osztály, Blade helperek, stb.)
+- az aktuális verziójú homestead alól futtattam (laravel 5.4, php 7.1), sqlite adatbázissal
